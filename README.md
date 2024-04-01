@@ -1,6 +1,5 @@
-# Audio-File-Combiner
+# Audio-File-Combiner-smart-enough
 
-# Audio File Combiner
 
 This Python script allows you to combine two audio files (in WAV format) by splitting them into segments based on silence and then interleaving the segments with specified durations of silence between them. It provides a graphical user interface (GUI) built with Tkinter for easy selection of input files and output folder.
 
