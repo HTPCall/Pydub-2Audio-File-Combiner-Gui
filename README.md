@@ -44,7 +44,3 @@ You can customize the following parameters in the script:
 - The script assumes that the input audio files are in WAV format. If your audio files are in a different format, you may need to modify the script accordingly.
 - The script uses the pydub library for audio processing, which relies on the FFmpeg library. Make sure you have FFmpeg installed on your system.
 - The GUI is built using the Tkinter library, which is included in the Python standard library.
-
-## License
-
-This script is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
