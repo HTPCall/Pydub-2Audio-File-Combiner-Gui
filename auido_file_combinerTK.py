@@ -31,7 +31,7 @@ def combine_audio():
 
     en_segments = split_on_silence(en_audio, min_silence_len=min_silence_duration, silence_thresh=silence_threshold)
     fr_segments = split_on_silence(fr_audio, min_silence_len=min_silence_duration, silence_thresh=silence_threshold)
-    fr1_segments = split_on_silence(fr_audio, min_silence_len=min_silence_duration, silence_thresh=silence_threshold)
+    # fr1_segments = split_on_silence(fr_audio, min_silence_len=min_silence_duration, silence_thresh=silence_threshold)   # For 3.segment of fr audio
 
     combined_audio = AudioSegment.empty()
     /*
